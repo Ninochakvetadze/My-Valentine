@@ -11,7 +11,7 @@ function moveNo() {
 }
 
 function yesClick() {
-    document.getElementById("response").innerText = "პასუხი სწორია";
+    document.getElementById("response").innerText = "✅ პასუხი სწორია";
     createHearts();
 }
 
