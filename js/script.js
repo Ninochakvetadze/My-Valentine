@@ -18,13 +18,13 @@ function yesClick() {
 function createHearts() {
     const card = document.querySelector(".card");
 
-    for (let i = 0; i < 25; i++) {
+    for (let i = 0; i < 125; i++) {
         const heart = document.createElement("div");
         heart.className = "heart";
         heart.innerText = "❤️";
 
-        const x = (Math.random() - 0.5) * 400 + "px";
-        const y = (Math.random() - 0.5) * 400 + "px";
+        const x = (Math.random() - 0.5) * 800 + "px";
+        const y = (Math.random() - 0.5) * 800 + "px";
 
         heart.style.setProperty("--x", x);
         heart.style.setProperty("--y", y);
